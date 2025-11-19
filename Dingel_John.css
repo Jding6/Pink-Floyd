@@ -1,0 +1,36 @@
+h1 {
+    color: white;
+    text-shadow: 10px 10px 10px rgb(255, 134, 235);
+ }
+
+ body {
+            background-image: url('https://miro.medium.com/1%2A8FkvzbSdSJ4HNxtuZo5kLg.jpeg');
+            background-size:cover;
+            background-position: center;
+        }
+
+    .button {
+        background-color:black;
+        border:pink
+        color: white;
+    }
+
+    .button {
+        background-color: black;
+        color: white;
+        box-shadow: 10px 10px 20px 20px
+        transform: translateY(90px);
+    }
+       h3 {
+           font-family:helvetica;
+           color:rgb(225, 0, 255);
+           box-shadow: 20px 10px 5px rgb(255, 18, 196):
+           border-radius: 5px;
+           
+
+       }
+       floyd {
+           font-family:courier;
+           padding: 50px;
+           background-color: pink;
+       }
