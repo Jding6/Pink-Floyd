@@ -1,36 +1,34 @@
-h1 {
-    color: white;
-    text-shadow: 10px 10px 10px rgb(255, 134, 235);
- }
-
- body {
-            background-image: url('https://miro.medium.com/1%2A8FkvzbSdSJ4HNxtuZo5kLg.jpeg');
-            background-size:cover;
-            background-position: center;
-        }
-
-    .button {
-        background-color:black;
-        border:pink
-        color: white;
-    }
-
-    .button {
-        background-color: black;
-        color: white;
-        box-shadow: 10px 10px 20px 20px
-        transform: translateY(90px);
-    }
-       h3 {
-           font-family:helvetica;
-           color:rgb(225, 0, 255);
-           box-shadow: 20px 10px 5px rgb(255, 18, 196):
-           border-radius: 5px;
-           
-
-       }
-       floyd {
-           font-family:courier;
-           padding: 50px;
-           background-color: pink;
-       }
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>
+            Pink Floyd
+            </title>  
+  <link rel="stylesheet" type="text/CSS" href="mystyles.css">
+</head>
+<h1 style="font-size:75;">
+    <thref="mystitle> All about Pink Floyd</title>
+    </head>
+<body>
+        <br>
+        <br>
+        <br>
+        <h3>Background</h3>
+           <h1 style="font-size:30;"> <p>Pink Floyd was formed in 1965 Syd Barrett, Roger Waters, Richard Wright, and Nick Mason. According to Polar prize, Pink Floyd started in 1965 in London when students Roger Waters, Nick Mason, and Richard Wright teamed up with guitarist Syd Barrett. Barrett came up with the name Pink Floyd by combining the first names of two blues musicians, Pink Anderson and Floyd Council.</p>
+        <p>Pink Floyd's first album was The Piper at the Gates of Dawn, released on August 4, 1967. They Released their most famous album, The Dark Side of the Moon on March 1st, 1973. This album was revolutionary to music, influencing many artists that came later.</p>
+            <h1 class="Floyd">Pink Floyd's Albums Ranked</h1>
+                <ol>
+                    <li>Dark Side of the Moon</li>
+                    <li>The Wall</li>
+                    <li>Wish you Where here</li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+              <a href="https://www.pinkfloyd.com/"> Click here to listen to Pink Floyd</a>
+              <hr>
+              <a href="Pink Floyd dark side of the moon .html"class="Pink">Next Page</a>
+</body>
+</html>
