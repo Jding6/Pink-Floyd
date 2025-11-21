@@ -7,29 +7,29 @@
   <link rel="stylesheet" type="text/CSS" href="mystyles.css">
 </head>
 <h1 style="font-size:100;">
-    <thref="mystitle> Album #2
+    <thref="mystitle> Album #3
         <br>
-        The Wall
+        Wish You were Here
     </title>
     <body>
         <br>
         <br>
-            <h1 class="sockeye">Background</h1>
+            <h1 class="">Background</h1>
        <h1 style="font-size:30px;"> 
-           <h1 class="quintin">    <p>According to The Wall Analysis, Pink Floyd's the Wall is one of the most intriguing and imaginative albums in the history of rock music. Since the studio album's release in 1979, the tour of 1980-81, and the subsequent movie of 1982, the Wall has become synonymous with, if not the very definition of, the term "concept album."</p>
+           <h1 class="quintin">    <p>According to Classic Album Sundays, the context of Pink Floyd's 1975 album Wish You Were Here is centered on two main themes: the band's disillusionment with the music industry and their profound sense of loss for former bandmate Syd Barrett.</p>
         <h1 class="songs">Top songs</h1>
         <h1 style="font-size:45px;">
             <h1 class="ol">
         <ol>
-                <li>Comfortably numb</li>
-                <li>Another Brick in the wall Pt.2</li>
-                <li>Young Lust</li>
-                <li>Hey You</li>
-                <li>Goodbye blue sky</li>
+                <li>Wish you were here</li>
+                <li>have a cigar</li>
+                <li>Shine on you crazy diamond Pt.1</li>
+                <li>Shine on you crazy diamond P1.2</li>
+                <li>Welcome to the Machine</li>
                 </ol>
-    <a href="Wish you were here.html">Next Page</a>
+ <a href="The Wall.html">Previous page</a>
  <hr>
  <br>
-    <a href="Pink Floyd dark side of the moon .html"class="Pink">Previous page</a>
         </body>
         </html>
+
