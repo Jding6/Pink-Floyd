@@ -1,59 +1,64 @@
 h1 {
-    color: white;
-    text-shadow: 10px 10px 10px rgb(255, 134, 235);
- }
+  color: white;
+  text-shadow: 10px 10px 10px rgb(255, 134, 235);
+}
 
- body {
-            background-image: url('https://miro.medium.com/1%2A8FkvzbSdSJ4HNxtuZo5kLg.jpeg');
-            background-size:cover;
-            background-position: center;
-        }
+body {
+  background-image: url("https://miro.medium.com/1%2A8FkvzbSdSJ4HNxtuZo5kLg.jpeg");
+  background-size: cover;
+  background-position: center;
+}
 
-    .button {
-        background-color: black;
-        color: white;
-        box-shadow: 10px 10px 20px 20px
-        transform: translateY(90px);
-    }
-       h3 {
-           font-family:helvetica;
-           color:rgb(169, 112, 177);
-           box-shadow: 20px 10px 5px rgb(255, 18, 196):
-           border-radius: 5px;
-           opacity: .75;
-       }
-       .Floyd {
-           color: red;
-           margin: 10px;
-           padding: 10px;
-           background-color: rgb(179, 131, 44);
-           font-size: 80px;
-           opacity: 0.6;
+.button {
+  background-color: black;
+  color: white;
+  box-shadow: 10px 10px 20px 20px;
+  transform: translateY(90px);
+}
 
-       }
-       .Pink {
-           color: yellow;
-       }
-       .catch {
-           color: green;
-           opacity: 0.5;
-       }
-       .songs {
-           color:blue;
-           opacity:.35;
-       }
-       .sockeye {
-           color:indigo
-           opacity:.5;
-           
-       }
-       .ol {
-           color:rgb(101, 193, 255);
-           font-size:40px;
-       }
-       .quintin {
-           color:hotpink;
-           box-shadow: 10px 15px;
-           font-size:40px;
-       }
-           
+h3 {
+  font-family: helvetica;
+  color: rgb(169, 112, 177);
+  box-shadow: 20px 10px 5px rgb(255, 18, 196);
+  border-radius: 5px;
+  opacity: 0.75;
+}
+
+.Floyd {
+  color: red;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(179, 131, 44);
+  font-size: 80px;
+  opacity: 0.6;
+}
+
+.Pink {
+  color: yellow;
+}
+
+.catch {
+  color: green;
+  opacity: 0.5;
+}
+
+.songs {
+  color: blue;
+  opacity: 0.35;
+}
+
+.sockeye {
+  color: indigo;
+  opacity: 0.5;
+}
+
+.ol {
+  color: rgb(101, 193, 255);
+  font-size: 40px;
+}
+
+.quintin {
+  color: hotpink;
+  box-shadow: 10px 15px;
+  font-size: 40px;
+}
