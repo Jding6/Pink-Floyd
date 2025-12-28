@@ -62,3 +62,23 @@ h3 {
   box-shadow: 10px 15px;
   font-size: 40px;
 }
+
+/* Optional! Make nav readable on the background image */
+nav {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
