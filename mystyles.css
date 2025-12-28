@@ -1,84 +1,94 @@
-h1 {
-  color: white;
-  text-shadow: 10px 10px 10px rgb(255, 134, 235);
-}
-
-body {
+/* mystyles.css */
+/* --- Background (keeps his “space/album poster” vibe) --- */
+.bg-space {
   background-image: url("https://miro.medium.com/1%2A8FkvzbSdSJ4HNxtuZo5kLg.jpeg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
-.button {
-  background-color: black;
+/* --- Global text + spacing --- */
+body {
+  margin: 0;
   color: white;
-  box-shadow: 10px 10px 20px 20px;
-  transform: translateY(90px);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
-  font-family: helvetica;
-  color: rgb(169, 112, 177);
-  box-shadow: 20px 10px 5px rgb(255, 18, 196);
-  border-radius: 5px;
-  opacity: 0.75;
+/* Big neon title feel */
+.title {
+  margin: 0;
+  font-size: 72px;
+  letter-spacing: 1px;
+  text-shadow: 10px 10px 10px rgb(255, 134, 235);
 }
 
-.Floyd {
-  color: red;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgb(179, 131, 44);
-  font-size: 80px;
-  opacity: 0.6;
+.glow {
+  text-shadow: 0 0 18px rgba(255, 134, 235, 0.9);
 }
 
-.Pink {
-  color: yellow;
+.subtitle {
+  margin: 8px 0 18px;
+  opacity: 0.9;
+  font-size: 18px;
 }
 
-.catch {
-  color: green;
-  opacity: 0.5;
+/* Top “poster” header area */
+.hero {
+  padding: 28px 18px 10px;
+  text-align: center;
 }
 
-.songs {
-  color: blue;
-  opacity: 0.35;
-}
-
-.sockeye {
-  color: indigo;
-  opacity: 0.5;
-}
-
-.ol {
-  color: rgb(101, 193, 255);
-  font-size: 40px;
-}
-
-.quintin {
-  color: hotpink;
-  box-shadow: 10px 15px;
-  font-size: 40px;
-}
-
-/* Optional! Make nav readable on the background image */
-nav {
-  background: rgba(0, 0, 0, 0.55);
-  padding: 10px;
-  border-radius: 8px;
+/* --- Nav (same on every page) --- */
+.nav {
   display: inline-block;
-  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.55);
 }
 
-nav a {
+.nav-link {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  margin: 0 10px;
+  font-size: 18px;
 }
 
-nav a:hover {
+.nav-link:hover {
   text-decoration: underline;
 }
 
+.nav-link.is-active {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* --- Readable content card (this is what fixes legibility) --- */
+.card {
+  max-width: 1000px;
+  margin: 18px auto 40px;
+  padding: 22px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.68);
+}
+
+/* Section titles (re-using his class names) */
+.section-title {
+  margin: 18px 0 10px;
+  font-size: 34px;
+  opacity: 0.9;
+}
+
+/* His original “class vibe” colors */
+.Floyd {
+  color: red;
+  padding: 10px;
+  background-color: rgb(179, 131, 44);
+  border-radius: 12px;
+  display: inline-block;
+  opacity: 0.85;
+}
+
+.Pink { color: yellow; }
+
+.catch { color: green; opacity: 0.85;
