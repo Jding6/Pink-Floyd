@@ -91,4 +91,58 @@ body {
 
 .Pink { color: yellow; }
 
-.catch { color: green; opacity: 0.85;
+.catch { color: green; opacity: 0.85; }
+
+.songs { color: rgb(101, 193, 255); opacity: 0.9; }
+
+.sockeye { color: indigo; opacity: 0.95; }
+
+.quintin {
+  color: hotpink;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+/* Lists: big + “poster” friendly */
+.big-list {
+  font-size: 26px;
+  color: rgb(101, 193, 255);
+  margin-top: 10px;
+}
+
+/* Buttons (keeps a bold look without weird translateY) */
+.btn-row {
+  margin-top: 22px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 18px;
+  opacity: 0.85;
+  font-size: 14px;
+}
