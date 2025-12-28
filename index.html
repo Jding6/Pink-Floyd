@@ -7,46 +7,52 @@
   <link rel="stylesheet" href="mystyles.css" />
 </head>
 
-<body>
-  <!-- Fixed broken h1 tag and id -->
-  <h1 id="mystitle">All about Pink Floyd</h1>
+<body class="bg-space">
+  <!-- “Poster” style site header -->
+  <header class="hero">
+    <h1 id="mystitle" class="title">All About Pink Floyd</h1>
+    <p class="subtitle">Albums • Era • Vibes</p>
 
-  <!-- Nav: every <a> needs text and should be closed -->
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="dark-side.html">Dark Side of the Moon</a> |
-    <a href="the-wall.html">The Wall</a> |
-    <a href="wish-you-were-here.html">Wish You Were Here</a>
-  </nav>
+    <!-- Same nav on every page -->
+    <nav class="nav">
+      <a class="nav-link is-active" href="index.html">Home</a>
+      <a class="nav-link" href="dark-side.html">Dark Side</a>
+      <a class="nav-link" href="the-wall.html">The Wall</a>
+      <a class="nav-link" href="wish-you-were-here.html">Wish You Were Here</a>
+    </nav>
+  </header>
 
-  <h3>Background</h3>
-  <p>
-    Pink Floyd was formed in 1965 by Syd Barrett, Roger Waters, Richard Wright, and Nick Mason.
-    According to Polar Prize, Pink Floyd started in 1965 in London when students Roger Waters, Nick Mason,
-    and Richard Wright teamed up with guitarist Syd Barrett. Barrett came up with the name Pink Floyd by
-    combining the first names of two blues musicians, Pink Anderson and Floyd Council.
-  </p>
+  <!-- Readable “glass” card so text is legible on the background -->
+  <main class="card">
+    <h2 class="section-title">Background</h2>
+    <p>
+      Pink Floyd was formed in 1965 by Syd Barrett, Roger Waters, Richard Wright, and Nick Mason.
+      According to Polar Prize, the band began in London when Waters, Mason, and Wright teamed up with
+      Barrett, who created the name by combining Pink Anderson and Floyd Council.
+    </p>
 
-  <p>
-    Pink Floyd's first album was <em>The Piper at the Gates of Dawn</em>, released on August 4, 1967.
-    They released their most famous album, <em>The Dark Side of the Moon</em>, on March 1, 1973.
-    This album was revolutionary to music, influencing many artists that came later.
-  </p>
+    <p>
+      Pink Floyd’s first album was <em>The Piper at the Gates of Dawn</em> (1967). Their best-known album,
+      <em>The Dark Side of the Moon</em>, released in 1973, influenced generations of artists.
+    </p>
 
-  <h2 class="Floyd">Pink Floyd's Albums Ranked</h2>
-  <ol>
-    <li>Dark Side of the Moon</li>
-    <li>The Wall</li>
-    <li>Wish You Were Here</li>
-  </ol>
+    <h2 class="section-title floyd">Pink Floyd Albums Ranked</h2>
+    <ol class="big-list">
+      <li>Dark Side of the Moon</li>
+      <li>The Wall</li>
+      <li>Wish You Were Here</li>
+    </ol>
 
-  <hr />
-  <a href="https://www.pinkfloyd.com/" target="_blank" rel="noopener">
-    Click here to listen to Pink Floyd
-  </a>
-  <hr />
+    <div class="btn-row">
+      <a class="btn btn-outline" href="https://www.pinkfloyd.com/" target="_blank" rel="noopener">
+        Official Site
+      </a>
+      <a class="btn" href="dark-side.html">Next: Dark Side →</a>
+    </div>
+  </main>
 
-  <!-- Next page link -->
-  <a href="dark-side.html" class="Pink">Next Page</a>
+  <footer class="footer">
+    <span>Pink Floyd Fan Page</span>
+  </footer>
 </body>
 </html>
