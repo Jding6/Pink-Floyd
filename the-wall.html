@@ -1,3 +1,4 @@
+<!-- the-wall.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,36 +8,44 @@
   <link rel="stylesheet" href="mystyles.css" />
 </head>
 
-<body>
-  <h1>Album #2 <br /> The Wall</h1>
+<body class="bg-space">
+  <header class="hero">
+    <h1 class="title">Album #2<br><span class="glow">The Wall</span></h1>
+    <p class="subtitle">1979 • Rock opera • Big story</p>
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="dark-side.html">Dark Side of the Moon</a> |
-    <a href="the-wall.html">The Wall</a> |
-    <a href="wish-you-were-here.html">Wish You Were Here</a>
-  </nav>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="dark-side.html">Dark Side</a>
+      <a class="nav-link is-active" href="the-wall.html">The Wall</a>
+      <a class="nav-link" href="wish-you-were-here.html">Wish You Were Here</a>
+    </nav>
+  </header>
 
-  <h2 class="sockeye">Background</h2>
-  <p class="quintin">
-    According to The Wall Analysis, Pink Floyd's <em>The Wall</em> is one of the most intriguing and
-    imaginative albums in the history of rock music. Since the studio album's release in 1979, the tour
-    of 1980–81, and the subsequent movie of 1982, The Wall has become synonymous with the term
-    "concept album."
-  </p>
+  <main class="card">
+    <h2 class="section-title sockeye">Background</h2>
+    <p class="quintin">
+      Pink Floyd’s <em>The Wall</em> is one of the most imaginative albums in rock history.
+      After its 1979 release, the 1980–81 tour, and the 1982 film, it became one of the most famous
+      concept albums ever made.
+    </p>
 
-  <!-- Fixed closing tag: was h2 opening but h1 closing -->
-  <h2 class="songs">Top songs</h2>
-  <ol class="ol">
-    <li>Comfortably Numb</li>
-    <li>Another Brick in the Wall Pt. 2</li>
-    <li>Young Lust</li>
-    <li>Hey You</li>
-    <li>Goodbye Blue Sky</li>
-  </ol>
+    <h2 class="section-title songs">Top Songs</h2>
+    <ol class="big-list">
+      <li>Comfortably Numb</li>
+      <li>Another Brick in the Wall Pt. 2</li>
+      <li>Young Lust</li>
+      <li>Hey You</li>
+      <li>Goodbye Blue Sky</li>
+    </ol>
 
-  <a href="wish-you-were-here.html">Next Page</a>
-  <hr />
-  <a href="dark-side.html" class="Pink">Previous Page</a>
+    <div class="btn-row">
+      <a class="btn btn-outline" href="dark-side.html">← Previous</a>
+      <a class="btn" href="wish-you-were-here.html">Next: Wish You Were Here →</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>Album Series</span>
+  </footer>
 </body>
 </html>
