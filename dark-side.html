@@ -1,3 +1,4 @@
+<!-- dark-side.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,34 +8,43 @@
   <link rel="stylesheet" href="mystyles.css" />
 </head>
 
-<body>
-  <h1>Album #1 <br /> Dark Side of the Moon</h1>
+<body class="bg-space">
+  <header class="hero">
+    <h1 class="title">Album #1<br><span class="glow">Dark Side of the Moon</span></h1>
+    <p class="subtitle">1973 • Concept album • Iconic sound</p>
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="dark-side.html">Dark Side of the Moon</a> |
-    <a href="the-wall.html">The Wall</a> |
-    <a href="wish-you-were-here.html">Wish You Were Here</a>
-  </nav>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link is-active" href="dark-side.html">Dark Side</a>
+      <a class="nav-link" href="the-wall.html">The Wall</a>
+      <a class="nav-link" href="wish-you-were-here.html">Wish You Were Here</a>
+    </nav>
+  </header>
 
-  <h2 class="catch">Background</h2>
-  <p>
-    The album was released on March 1, 1973. According to Firebird magazine, the album is a concept album
-    that explores themes of conflict, greed, time, mental illness, and mortality, largely inspired by the
-    band's lifestyle and the mental deterioration of former member Syd Barrett.
-  </p>
+  <main class="card">
+    <h2 class="section-title catch">Background</h2>
+    <p>
+      Released March 1, 1973, this concept album explores themes of conflict, greed, time,
+      mental illness, and mortality—partly inspired by the band’s life and Syd Barrett’s decline.
+    </p>
 
-  <h2 class="songs">Top songs</h2>
-  <ol class="ol">
-    <li>Money</li>
-    <li>Time</li>
-    <li>Brain Damage</li>
-    <li>Us and Them</li>
-    <li>Breathe (In the Air)</li>
-  </ol>
+    <h2 class="section-title songs">Top Songs</h2>
+    <ol class="big-list">
+      <li>Money</li>
+      <li>Time</li>
+      <li>Brain Damage</li>
+      <li>Us and Them</li>
+      <li>Breathe (In the Air)</li>
+    </ol>
 
-  <a href="the-wall.html" class="Side">Next Page</a>
-  <hr />
-  <a href="index.html">Previous Page</a>
+    <div class="btn-row">
+      <a class="btn btn-outline" href="index.html">← Back Home</a>
+      <a class="btn" href="the-wall.html">Next: The Wall →</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>Album Series</span>
+  </footer>
 </body>
 </html>
