@@ -1,3 +1,4 @@
+<!-- wish-you-were-here.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,36 +8,43 @@
   <link rel="stylesheet" href="mystyles.css" />
 </head>
 
-<body>
-  <h1>Album #3 <br /> Wish You Were Here</h1>
+<body class="bg-space">
+  <header class="hero">
+    <h1 class="title">Album #3<br><span class="glow">Wish You Were Here</span></h1>
+    <p class="subtitle">1975 • Loss • Industry pressure</p>
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="dark-side.html">Dark Side of the Moon</a> |
-    <a href="the-wall.html">The Wall</a> |
-    <a href="wish-you-were-here.html">Wish You Were Here</a>
-  </nav>
+    <nav class="nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="dark-side.html">Dark Side</a>
+      <a class="nav-link" href="the-wall.html">The Wall</a>
+      <a class="nav-link is-active" href="wish-you-were-here.html">Wish You Were Here</a>
+    </nav>
+  </header>
 
-  <h2>Background</h2>
-  <p class="quintin">
-    According to Classic Album Sundays, the context of Pink Floyd's 1975 album <em>Wish You Were Here</em>
-    is centered on two main themes: the band's disillusionment with the music industry and their profound
-    sense of loss for former bandmate Syd Barrett.
-  </p>
+  <main class="card">
+    <h2 class="section-title">Background</h2>
+    <p class="quintin">
+      The 1975 album <em>Wish You Were Here</em> focuses on two big themes: the band’s disillusionment
+      with the music industry and their deep sense of loss for former bandmate Syd Barrett.
+    </p>
 
-  <h2 class="songs">Top songs</h2>
+    <h2 class="section-title songs">Top Songs</h2>
+    <ol class="big-list">
+      <li>Wish You Were Here</li>
+      <li>Have a Cigar</li>
+      <li>Shine On You Crazy Diamond Pt. 1</li>
+      <li>Shine On You Crazy Diamond Pt. 2</li>
+      <li>Welcome to the Machine</li>
+    </ol>
 
-  <!-- Removed invalid <pl> tag -->
-  <ol class="ol">
-    <li>Wish You Were Here</li>
-    <li>Have a Cigar</li>
-    <li>Shine On You Crazy Diamond Pt. 1</li>
-    <li>Shine On You Crazy Diamond Pt. 2</li>
-    <li>Welcome to the Machine</li>
-  </ol>
+    <div class="btn-row">
+      <a class="btn btn-outline" href="the-wall.html">← Previous</a>
+      <a class="btn" href="index.html">Back Home ⤴</a>
+    </div>
+  </main>
 
-  <a href="the-wall.html">Previous Page</a>
-  <hr />
-  <a href="index.html">Back to Home</a>
+  <footer class="footer">
+    <span>Album Series</span>
+  </footer>
 </body>
 </html>
