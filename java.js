@@ -8,15 +8,15 @@ var colorAnswer=
 askQuestion("What is your favorite music artist?");
 
 console.log(alert("Nice Mine too!"));
-var itemNum= prompt("Did you buyy 1 or 2 items?");
+var favSong= prompt("What is your favorite artist?");
 function check(v){
-  if (v==1){
+  if (v==Kanye West){
   }else{
-    alert("You can have a free one!")'
+    alert("Mine too!")'
   }
 }
-check(itemNum);
+check(favSong);
 itemNum = prompt("Did you buy 1 or 2 items?");
-check(itemNum)
+check(favSong)
 itemNum = prompt("Did you buy 1 or 2 items?");
-check(itemNum);
+check(favSong);
