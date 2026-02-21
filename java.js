@@ -14,9 +14,4 @@ function check(v){
   }else{
     alert("Mine too!")'
   }
-}
-check(favSong);
-itemNum = prompt("Did you buy 1 or 2 items?");
-check(favSong)
-itemNum = prompt("Did you buy 1 or 2 items?");
-check(favSong);
+
